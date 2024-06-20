@@ -1,4 +1,5 @@
 import { StatusCodes } from "http-status-codes";
+import mongoose from 'mongoose';
 
 import { Driver } from "../models/driver.js";
 import { MAX_DISTANCE } from "../config.js";
